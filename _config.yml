@@ -6,3 +6,9 @@ sass:
 
 kramdown:
   math_engine: katex
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
