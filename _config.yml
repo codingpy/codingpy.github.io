@@ -1,4 +1,8 @@
 theme: minima
 
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
+
 kramdown:
   math_engine: katex
